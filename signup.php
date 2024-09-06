@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="container">
-        <form method="post" action="signup.php" class="col-md-5" style="margin-top: 150px;margin-left:100px">
+        <form method="post" action="signup.php" class="col-md-5" style="margin-top: 130px;margin-left:100px">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -57,6 +57,8 @@
         </div>
         <button type="submit" name="sign" class="btn btn-primary">Sign Up</button>
         </form>
+
+        <h5 style="margin-left: 100px;">Already Registered? <a style="text-decoration: none;" href="index.php">Log Now</a></h4>
     </div>
 </body>
 </html>
